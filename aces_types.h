@@ -108,6 +108,8 @@
 
 #ifdef _WIN32
 
+#include <stdint.h>
+
 typedef signed char			int8;
 typedef __int16				int16;
 typedef __int32				int32;
